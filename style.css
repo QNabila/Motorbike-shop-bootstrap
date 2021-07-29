@@ -1,39 +1,55 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
 * {
   font-family: "Poppins", sans-serif;
- }
+}
 /* Hero Section */
-.hero-title-1{
-  font-weight:300;
+.hero-title-1 {
+  font-weight: 300;
   font-size: 14px;
 }
-.hero-title-2{
-    font-size: 48px;
-    font-weight: 600;
+.hero-title-2 {
+  font-size: 48px;
+  font-weight: 600;
 }
-.hero-title-3{
-    color: #E0E0E0;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
+.hero-title-3 {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
 }
-.Honda-btn{
+.Honda-btn {
   background-color: rgba(231, 111, 81, 1);
   border-radius: 5px;
   width: 168px;
   height: 44px;
-  
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
 }
-.Honda-btn a{
-    font-weight: 500px;
+
+/* Body */
+.review-title,
+.faq-title,
+.arrival-title {
+  color: #0d0925;
+}
+.feature-title p {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(231, 111, 81, 1);
 }
 .feature-bikes img {
   width: 288px;
   height: 243px;
   margin-top: 120px;
 }
+/* clients section */
 .clients img {
   height: 149px;
   width: 149px;
@@ -41,11 +57,28 @@
 .clients .card {
   padding: 25px 30px;
 }
+.fas.fa-star{
+  color: rgba(231, 111, 81, 1);
+}
+.far.fa-star.empty{
+  color: rgba(231, 111, 81, 1);
+}
 .review-title,
 .faq-title {
   margin-top: 160px;
   margin-bottom: 52px;
 }
+#client-name{
+  color: rgba(35, 166, 240, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+#client-job{
+  font-size: 14px;
+  font-weight: 600;
+  color: #252B42;
+}
+/* new arrival section */
 .check-products {
   background-image: url(images/bg.jpg);
   background-position: center;
@@ -56,6 +89,43 @@
   width: 100%;
   height: 350px;
 }
-.Honda-Cart-btn{
-    background-color: rgba(231, 111, 81, 1);
+/* Faq section style */
+.accordion-button{
+  font-size: 20px;
+  font-weight: 500;
+  color: #383838;
+}
+.accordion-body{
+  font-size:16px;
+  font-weight:400;
+  color:#7E848C;
+}
+.accordion-item{
+  border-color: solid #D5E5FB;
+}
+.accordion-button:not(.collapsed) {
+  color: #383838;
+  background-color: white;
+  box-shadow: none;
+}
+/* New arrival style */
+.carousel-item h5 {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.carousel-item p {
+  font-size: 20px;
+  color: rgb(7, 7, 56);
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.carousel-item span {
+  font-size: 48px;
+  color: rgba(231, 111, 81, 1);
+}
+.Honda-Cart-btn,
+.btn-buynow {
+  background-color: rgba(231, 111, 81, 1);
 }
