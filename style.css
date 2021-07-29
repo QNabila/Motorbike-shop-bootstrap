@@ -1,0 +1,9 @@
+.btn-color{
+    background-color: rgba(231, 111, 81, 1);
+}
+.feature-bikes img{
+    width: 288px;
+    height: 243px;
+    margin-top: 120px;
+}
+/* media-query  */
