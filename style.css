@@ -5,9 +5,11 @@ h1 {
   font-weight: 600;
   font-size: 48px;
 }
+
 * {
   font-family: "Poppins", sans-serif;
 }
+
 /* Hero Section */
 .hero-title-1 {
   font-weight: 300;
@@ -34,6 +36,8 @@ h1 {
 }
 
 /* Body */
+
+/* Feature section */
 .review-title,
 .faq-title,
 .arrival-title {
@@ -49,6 +53,7 @@ h1 {
   height: 243px;
   margin-top: 120px;
 }
+
 /* clients section */
 .clients img {
   height: 149px;
@@ -57,10 +62,10 @@ h1 {
 .clients .card {
   padding: 25px 30px;
 }
-.fas.fa-star{
+.fas.fa-star {
   color: rgba(231, 111, 81, 1);
 }
-.far.fa-star.empty{
+.far.fa-star.empty {
   color: rgba(231, 111, 81, 1);
 }
 .review-title,
@@ -68,17 +73,38 @@ h1 {
   margin-top: 160px;
   margin-bottom: 52px;
 }
-#client-name{
+#client-name {
   color: rgba(35, 166, 240, 1);
   font-size: 14px;
   font-weight: 600;
 }
-#client-job{
+#client-job {
   font-size: 14px;
   font-weight: 600;
-  color: #252B42;
+  color: #252b42;
 }
-/* new arrival section */
+
+/* Faq section style */
+.accordion-button {
+  font-size: 20px;
+  font-weight: 500;
+  color: #383838;
+}
+.accordion-body {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7e848c;
+}
+.accordion-item {
+  border-color: solid #d5e5fb;
+}
+.accordion-button:not(.collapsed) {
+  color: #383838;
+  background-color: white;
+  box-shadow: none;
+}
+
+/* New arrival style */
 .check-products {
   background-image: url(images/bg.jpg);
   background-position: center;
@@ -89,26 +115,6 @@ h1 {
   width: 100%;
   height: 350px;
 }
-/* Faq section style */
-.accordion-button{
-  font-size: 20px;
-  font-weight: 500;
-  color: #383838;
-}
-.accordion-body{
-  font-size:16px;
-  font-weight:400;
-  color:#7E848C;
-}
-.accordion-item{
-  border-color: solid #D5E5FB;
-}
-.accordion-button:not(.collapsed) {
-  color: #383838;
-  background-color: white;
-  box-shadow: none;
-}
-/* New arrival style */
 .carousel-item h5 {
   font-size: 35px;
   color: rgb(255, 255, 255);
